@@ -17,8 +17,12 @@ header {
             width: 200px;
         }
     }
-    .loginButton{
+    #wrongInput{
+        color: red;
+    }
+    .loginButton, .logoutButton{
         border: 2px solid #4d646f;
         padding: 6px 15px;
+        cursor: pointer;
     }
 }

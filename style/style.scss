@@ -26,6 +26,7 @@ body {
 footer{
     display: flex;
     align-items: center;
+    justify-content: center;
     border-top: 2px solid #4d646f;
     position: absolute;
     bottom: 0;
@@ -33,7 +34,7 @@ footer{
     height: 50px;
     p{
         padding: 0;
-        margin: 0 0 0 20px;
+        margin-top: 5px;
     }
 }
 

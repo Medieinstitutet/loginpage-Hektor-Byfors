@@ -66,9 +66,14 @@ header div input {
   width: 200px;
 }
 
-header .loginButton {
+header #wrongInput {
+  color: red;
+}
+
+header .loginButton, header .logoutButton {
   border: 2px solid #4d646f;
   padding: 6px 15px;
+  cursor: pointer;
 }
 
 section {
@@ -111,6 +116,9 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-top: 2px solid #4d646f;
   position: absolute;
   bottom: 0;
@@ -120,7 +128,7 @@ footer {
 
 footer p {
   padding: 0;
-  margin: 0 0 0 20px;
+  margin-top: 5px;
 }
 
 .hide {
