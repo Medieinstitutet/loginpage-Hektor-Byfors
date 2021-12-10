@@ -1,20 +1,35 @@
+h1, h2, p {
+  color: grey;
+}
+
 body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  background-color: #4d646f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #4d646f;
-  font-family: sans-serif;
 }
 
 body .contentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 800px;
   background-color: white;
-  min-height: 800px;
-  margin: 30px 0 0 0;
+  margin-top: 30px;
   border-radius: 5px;
+  min-height: 800px;
 }
 
 header {
@@ -26,13 +41,12 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
 }
 
 header h1 {
-  margin-right: 150px;
   color: #4d646f;
 }
 
@@ -49,10 +63,10 @@ header div {
 header div input {
   margin: 5px;
   padding: 5px;
+  width: 200px;
 }
 
 header .loginButton {
-  margin-left: 30px;
   border: 2px solid #4d646f;
   padding: 6px 15px;
 }
@@ -68,6 +82,7 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 500px;
 }
 
 section h2 {
@@ -86,6 +101,7 @@ section p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 
 footer {
@@ -104,6 +120,14 @@ footer {
 
 footer p {
   padding: 0;
-  margin: 0 0 0 100px;
+  margin: 0 0 0 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 500px;
     h2{
         display: flex;
         justify-content: center;
@@ -9,5 +10,6 @@ section {
     p{
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 }

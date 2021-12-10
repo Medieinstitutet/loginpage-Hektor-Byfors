@@ -3,9 +3,9 @@ header {
     display: flex;
     height: 150px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
     h1{
-        margin-right: 150px;
         color: #4d646f;
     }
     div{
@@ -14,10 +14,10 @@ header {
         input{
             margin: 5px;
             padding: 5px;
+            width: 200px;
         }
     }
     .loginButton{
-        margin-left: 30px;
         border: 2px solid #4d646f;
         padding: 6px 15px;
     }
